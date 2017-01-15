@@ -1,11 +1,11 @@
 {
-	"folders":
-	[
-		{
-			"path": ".",
+  "folders":
+  [
+    {
+      "path": ".",
       "file_include_patterns": ["*.c", "*.h", "*.sublime-project"]
-		}
-	],
+    }
+  ],
   "build_systems":
   [
     {
