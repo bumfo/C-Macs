@@ -20,7 +20,7 @@ Class ViewClass;
 // stuck with the C-based mentality of the application.
 void View_drawRect(id self, SEL _cmd, CMRect rect) {
 	//make a red cmacs_simple_msgSend object with its convenience method
-	id red = cmacs_simple_msgSend((id)objc_getClass("NSColor"), sel_getUid("redColor"));
+	id red = cmacs_simple_msgSend((id)objc_getClass("NSColor"), sel_getUid("greenColor"));
 	
 	// fill target rect with red, because this is it!
 	CMRect rect1 =  (CMRect){ 21, 21, 210, 210 };
