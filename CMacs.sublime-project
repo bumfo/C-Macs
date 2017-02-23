@@ -10,7 +10,7 @@
   [
     {
       "name": "make",
-      "shell_cmd": "gcc -framework Cocoa *.c -o $project_base_name"
+      "shell_cmd": "gcc `pkg-config --cflags --libs cairo` -framework Cocoa *.c -o $project_base_name"
     }
   ]
 }
